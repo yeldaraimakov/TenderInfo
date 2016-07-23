@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TenderInfo</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="sources">
+        <item>Все</item>
+        <item>Государственные закупки</item>
+        <item>Самрук-Казына</item>
+        <item>Евразийская группа ENRC</item>
+        <item>Реестр недропользователей</item>
+    </string-array>
+    
+    <string-array name="ways">
+        <item>Все</item>
+        <item>Аукцион</item>
+        <item>Закуп из одного источника</item>
+        <item>Запрос ценновых предложений</item>
+        <item>Запрос ценновых предложений на понижение</item>
+        <item>Конкурс посредством электронных закупок</item>
+        <item>Конкурс с применением двухэтапных процедур</item>
+        <item>Особый порядок</item>
+        <item>Открытый конкурс</item>
+        <item>Открытый конкурс на понижение</item>
+    </string-array>
+    
+    <string-array name="regions">
+        <item>Все</item>
+        <item>г.Астана</item>
+        <item>г.Алматы</item>
+        <item>Алматинская область</item>
+        <item>Акмолинская область</item>
+        <item>Актюбинская область</item>
+        <item>Атырауская область</item>
+        <item>Акмолинская область</item>
+        <item>Восточно-Казахстанская область</item>
+        <item>Жамбылская область</item>
+        <item>Западно-Казахстанская область</item>
+        <item>Карагандинская область</item>
+        <item>Костанайская область</item>
+        <item>Кызылординская область</item>
+        <item>Мангистауская область</item>
+        <item>Павлодарская область</item>
+        <item>Северо-Казахстанская область</item>
+        <item>Южно-Казахстанская область</item>
+    </string-array>
+
+    <string name="address">пр. Абая, 52B, БЦ "Bayzak"\n3-этаж, офис 315</string>
+</resources>

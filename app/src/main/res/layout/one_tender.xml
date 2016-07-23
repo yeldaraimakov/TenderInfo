@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/name"
+            android:textSize="@dimen/title_size"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Источник:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/source"
+            android:textSize="@dimen/large"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Цена:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/amount"
+            android:textSize="@dimen/large"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Количество лотов:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/lots"
+            android:textSize="@dimen/large"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Статус:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/status"
+            android:textSize="@dimen/large"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Категория:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/category"
+            android:textSize="@dimen/large"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Заказчик:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/customer"
+            android:textSize="@dimen/large"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Адрес:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/address"
+            android:textSize="@dimen/large"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Ссылка:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/link"
+            android:textSize="@dimen/large"
+            android:textColor="@android:color/black"
+            android:autoLink="web"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Скачать документы:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/docs"
+            android:textSize="@dimen/large"
+            android:textColor="@android:color/black"
+            android:autoLink="web"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:text="Дата завершения:"
+            android:textSize="@dimen/large"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/endDate"
+            android:textSize="@dimen/large"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
